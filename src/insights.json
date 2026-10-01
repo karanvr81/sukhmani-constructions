@@ -1,0 +1,114 @@
+[
+  {
+    "path": "/insights/construction-site-security-checklist/",
+    "title": "Construction Site Security Checklist | Sukhmani Sydney",
+    "heading": "Planning Construction Site Security in Sydney",
+    "description": "A practical construction-site security planning checklist covering access, storage, camera views and review routines for Sydney builders.",
+    "intro": "A camera works best as part of a practical site plan. Start with access and storage, then decide which areas need remote visibility.",
+    "sections": [
+      [
+        "Start with access and storage",
+        "Identify entrances, fencing gaps and areas that need attention before the site is left unattended. Keep tools and materials in appropriate secure storage. Agree who checks gates and who holds keys. NSW Police guidance encourages secure access and storage as well as considering CCTV."
+      ],
+      [
+        "Choose views around the actual site",
+        "Mark entry points and storage areas on a simple layout. Discuss solar exposure and connection coverage with the installer. A camera looking at a gate may not show a separate storage area. <a href=\"/construction-site-camera-system/\">See how the camera setup fits together</a>."
+      ],
+      [
+        "Assign a review routine",
+        "Decide who checks remote viewing, who receives reports of problems and who arranges support. Review the view after fences, scaffolding or stored materials move. Record a responsible contact rather than assuming someone else will check."
+      ],
+      [
+        "Keep safety checks in the plan",
+        "Site security also involves protecting people from site hazards. Use the SafeWork NSW site security checklist alongside the project\u2019s own safety arrangements. Cameras do not replace fencing, access control or required safety measures."
+      ],
+      [
+        "Request camera advice with useful details",
+        "Share the site suburb, intended hire period, entry points and viewing priorities. <a href=\"/solar-camera-hire-sydney/\">Ask about solar camera hire</a> and agree the configuration before booking."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      [
+        "SafeWork NSW site security checklist",
+        "https://www.safework.nsw.gov.au/resource-library/construction/site-security-checklist"
+      ],
+      [
+        "NSW Police: Protect your construction site",
+        "https://www.police.nsw.gov.au/__data/assets/pdf_file/0009/924534/Protect-Your-Construction-Site-1.pdf"
+      ]
+    ]
+  },
+  {
+    "path": "/insights/construction-site-shutdown-preparation/",
+    "title": "Construction Site Shutdown Preparation | Sukhmani",
+    "heading": "Preparing a Construction Site for a Shutdown",
+    "description": "Plan camera checks, secure access, contact responsibilities and reopening checks before a holiday or extended construction-site shutdown.",
+    "intro": "Before a holiday break or another period without regular attendance, review the site as it will be left. A useful camera view during a busy workday may change once vehicles and equipment move.",
+    "sections": [
+      [
+        "Confirm dates and responsible contacts",
+        "Record the shutdown and reopening dates. Nominate who can review the site, arrange access and contact the camera provider. Make sure the relevant people can reach each other during the break."
+      ],
+      [
+        "Check access and storage before leaving",
+        "Review gates, fencing and stored tools as part of the site\u2019s own shutdown procedure. SafeWork NSW\u2019s site security checklist is a useful reference for reviewing site hazards and access arrangements."
+      ],
+      [
+        "Test cameras before the last working day",
+        "Test remote viewing on the device that will be used during the break. Look for blocked views and shaded solar equipment. Ask the provider about any support arrangements needed during the closure; do not assume continuous monitoring is included."
+      ],
+      [
+        "Agree what happens if something needs attention",
+        "Distinguish remote viewing from a staffed monitoring or response service. Confirm who should act on an issue, who can safely attend and how support is requested. Follow the project\u2019s emergency arrangements."
+      ],
+      [
+        "Review again when work resumes",
+        "Check access and camera coverage when the site reopens. Contact the provider if a new work area or changed scaffolding affects placement. <a href=\"/how-camera-hire-works/\">Review the camera-hire process</a> before extending or changing the hire."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      [
+        "SafeWork NSW site security checklist",
+        "https://www.safework.nsw.gov.au/resource-library/construction/site-security-checklist"
+      ]
+    ]
+  },
+  {
+    "path": "/insights/managing-camera-access-across-sites/",
+    "title": "Managing Camera Access Across Building Sites | Sukhmani",
+    "heading": "Managing Camera Access Across Building Sites",
+    "description": "Organise site-camera contacts, access checks and review routines when your team works across several construction projects.",
+    "intro": "When a team manages several builds, clear responsibilities matter as much as access to a camera. Keep an agreed record for each site and confirm what the supplied equipment supports.",
+    "sections": [
+      [
+        "Keep a practical record for each site",
+        "Record the suburb, site contact, hire dates, camera provider and support contact in your normal project records. Store credentials securely, separately from documents shared widely with subcontractors."
+      ],
+      [
+        "Confirm who needs access",
+        "Discuss access requirements with the provider. Confirm whether the supplied system supports separate accounts, permission levels or multiple sites in one app. These capabilities depend on the equipment and should not be assumed."
+      ],
+      [
+        "Protect accounts and update access",
+        "Use strong, unique passwords and multi-factor authentication wherever the camera platform supports it. The Australian Cyber Security Centre recommends multi-factor authentication to help protect accounts. Review access when staff responsibilities change."
+      ],
+      [
+        "Use a repeatable viewing check",
+        "For each site, check that remote viewing works and the intended area remains visible. Record issues and the responsible person. A working view on one project does not establish that the cameras on another project are connected."
+      ],
+      [
+        "Coordinate hire changes by site",
+        "Track planned collection dates and build extensions individually. <a href=\"/construction-camera-hire-cost/\">Check the agreed billing terms</a> and contact the provider before relocating equipment or ending hire."
+      ]
+    ],
+    "faqs": [],
+    "sources": [
+      [
+        "Australian Cyber Security Centre: multi-factor authentication",
+        "https://www.cyber.gov.au/protect-yourself/securing-your-accounts/multi-factor-authentication"
+      ]
+    ]
+  }
+]

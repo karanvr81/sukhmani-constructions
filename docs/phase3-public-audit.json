@@ -1,0 +1,394 @@
+{
+  "audit_utc": "2026-09-30T15:41:43.520605+00:00",
+  "urls": [
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/",
+      "status": 200,
+      "final_url": "https://www.sukhmaniconstructions.com.au/",
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 68846,
+      "title": [
+        "Sukhmani Constructions | Sydney Building Services"
+      ],
+      "canonical": [
+        "https://sukhmani-constructions-sydney.karanvr81.chatgpt.site/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "description": [
+        "Solar security cameras, insulation, sarking, termite protection and construction site cleaning for builders and developers across Sydney, NSW."
+      ],
+      "raw_main_chars": 330,
+      "raw_h1s": [
+        "Sydney Construction Site Services"
+      ],
+      "preview_origin_present": true,
+      "schema_blocks": 1
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/Services/",
+      "status": 200,
+      "final_url": "https://www.sukhmaniconstructions.com.au/Services/",
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 70485,
+      "title": [
+        "Construction Services Sydney | Sukhmani Constructions"
+      ],
+      "canonical": [
+        "https://sukhmani-constructions-sydney.karanvr81.chatgpt.site/Services/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "description": [
+        "Solar site security cameras, insulation, sarking, termite protection and professional construction cleaning services across Sydney, NSW."
+      ],
+      "raw_main_chars": 310,
+      "raw_h1s": [
+        "Construction Services Sydney"
+      ],
+      "preview_origin_present": true,
+      "schema_blocks": 1
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/HowItWorks/",
+      "status": 200,
+      "final_url": "https://www.sukhmaniconstructions.com.au/HowItWorks/",
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 69263,
+      "title": [
+        "How It Works | Sukhmani Constructions Sydney"
+      ],
+      "canonical": [
+        "https://sukhmani-constructions-sydney.karanvr81.chatgpt.site/HowItWorks/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "description": [
+        "See the simple five-step process Sukhmani Constructions uses to quote, plan, install and complete construction support services across Sydney."
+      ],
+      "raw_main_chars": 300,
+      "raw_h1s": [
+        "How It Works"
+      ],
+      "preview_origin_present": true,
+      "schema_blocks": 1
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/FAQ/",
+      "status": 200,
+      "final_url": "https://www.sukhmaniconstructions.com.au/FAQ/",
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 71743,
+      "title": [
+        "Construction Services FAQ | Sukhmani Constructions"
+      ],
+      "canonical": [
+        "https://sukhmani-constructions-sydney.karanvr81.chatgpt.site/FAQ/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "description": [
+        "Answers about solar security cameras, insulation, sarking, termite protection, site cleaning, quotes and bookings across Sydney."
+      ],
+      "raw_main_chars": 299,
+      "raw_h1s": [
+        "Construction Services FAQ"
+      ],
+      "preview_origin_present": true,
+      "schema_blocks": 1
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/Contact/",
+      "status": 200,
+      "final_url": "https://www.sukhmaniconstructions.com.au/Contact/",
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 69283,
+      "title": [
+        "Free Construction Quote Sydney | Sukhmani Constructions"
+      ],
+      "canonical": [
+        "https://sukhmani-constructions-sydney.karanvr81.chatgpt.site/Contact/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "description": [
+        "Request a free quote for solar security cameras, insulation, sarking, termite protection or construction site cleaning in Sydney, NSW."
+      ],
+      "raw_main_chars": 310,
+      "raw_h1s": [
+        "Free Construction Quote Sydney"
+      ],
+      "preview_origin_present": true,
+      "schema_blocks": 1
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/About/",
+      "status": 200,
+      "final_url": "https://www.sukhmaniconstructions.com.au/About/",
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 69234,
+      "title": [
+        "About Sukhmani Constructions | Sydney"
+      ],
+      "canonical": [
+        "https://sukhmani-constructions-sydney.karanvr81.chatgpt.site/About/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "description": [
+        "Learn about Sukhmani Constructions, a Sydney team supporting builders with reliable site security, insulation, sarking and protection services."
+      ],
+      "raw_main_chars": 317,
+      "raw_h1s": [
+        "About Sukhmani Constructions"
+      ],
+      "preview_origin_present": true,
+      "schema_blocks": 1
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/insights/",
+      "status": 404,
+      "final_url": "https://www.sukhmaniconstructions.com.au/insights/",
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 79
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/insights/construction-site-security-checklist/",
+      "status": 404,
+      "final_url": "https://www.sukhmaniconstructions.com.au/insights/construction-site-security-checklist/",
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 79
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/insights/construction-site-shutdown-preparation/",
+      "status": 404,
+      "final_url": "https://www.sukhmaniconstructions.com.au/insights/construction-site-shutdown-preparation/",
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 79
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/insights/managing-camera-access-across-sites/",
+      "status": 404,
+      "final_url": "https://www.sukhmaniconstructions.com.au/insights/managing-camera-access-across-sites/",
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 79
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/solar-camera-hire-sydney/",
+      "status": 404,
+      "final_url": "https://www.sukhmaniconstructions.com.au/solar-camera-hire-sydney/",
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 79
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/how-camera-hire-works/",
+      "status": 404,
+      "final_url": "https://www.sukhmaniconstructions.com.au/how-camera-hire-works/",
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 79
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/construction-camera-hire-cost/",
+      "status": 404,
+      "final_url": "https://www.sukhmaniconstructions.com.au/construction-camera-hire-cost/",
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 79
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/site-camera-no-wifi-power/",
+      "status": 404,
+      "final_url": "https://www.sukhmaniconstructions.com.au/site-camera-no-wifi-power/",
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 79
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/construction-site-camera-system/",
+      "status": 404,
+      "final_url": "https://www.sukhmaniconstructions.com.au/construction-site-camera-system/",
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 79
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/Services/Insulation-Installation/",
+      "status": 200,
+      "final_url": "https://www.sukhmaniconstructions.com.au/Services/Insulation-Installation/",
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 71455,
+      "title": [
+        "Insulation Installation Sydney | Sukhmani Constructions"
+      ],
+      "canonical": [
+        "https://sukhmani-constructions-sydney.karanvr81.chatgpt.site/Services/Insulation-Installation/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "description": [
+        "Professional wall, ceiling and underfloor insulation installation for new residential and commercial builds across Sydney, NSW."
+      ],
+      "raw_main_chars": 311,
+      "raw_h1s": [
+        "Insulation Installation in Sydney"
+      ],
+      "preview_origin_present": true,
+      "schema_blocks": 1
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/Services/Sarking-Installation/",
+      "status": 200,
+      "final_url": "https://www.sukhmaniconstructions.com.au/Services/Sarking-Installation/",
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 71472,
+      "title": [
+        "Sarking Installation Sydney | Sukhmani Constructions"
+      ],
+      "canonical": [
+        "https://sukhmani-constructions-sydney.karanvr81.chatgpt.site/Services/Sarking-Installation/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "description": [
+        "Professional roof and wall sarking installation for Sydney construction projects, providing weather protection and improved thermal performance."
+      ],
+      "raw_main_chars": 325,
+      "raw_h1s": [
+        "Sarking Installation in Sydney"
+      ],
+      "preview_origin_present": true,
+      "schema_blocks": 1
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/Services/Termite-Protection/",
+      "status": 200,
+      "final_url": "https://www.sukhmaniconstructions.com.au/Services/Termite-Protection/",
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 71423,
+      "title": [
+        "Pre-Construction Termite Protection Sydney | Sukhmani"
+      ],
+      "canonical": [
+        "https://sukhmani-constructions-sydney.karanvr81.chatgpt.site/Services/Termite-Protection/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "description": [
+        "Pre-construction termite protection, pre-slab treatments and physical barrier systems for residential and commercial projects across Sydney."
+      ],
+      "raw_main_chars": 319,
+      "raw_h1s": [
+        "Termite Protection in Sydney"
+      ],
+      "preview_origin_present": true,
+      "schema_blocks": 1
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/Services/Construction-Site-Cleaning/",
+      "status": 200,
+      "final_url": "https://www.sukhmaniconstructions.com.au/Services/Construction-Site-Cleaning/",
+      "content_type": "text/html; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 71463,
+      "title": [
+        "Construction Site Cleaning Sydney | Sukhmani"
+      ],
+      "canonical": [
+        "https://sukhmani-constructions-sydney.karanvr81.chatgpt.site/Services/Construction-Site-Cleaning/"
+      ],
+      "robots": [
+        "index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1"
+      ],
+      "description": [
+        "Professional builders cleans, handover cleans and construction site clean-up for residential and commercial projects across Sydney, NSW."
+      ],
+      "raw_main_chars": 323,
+      "raw_h1s": [
+        "Construction Site Cleaning in Sydney"
+      ],
+      "preview_origin_present": true,
+      "schema_blocks": 1
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/robots.txt",
+      "status": 200,
+      "final_url": "https://www.sukhmaniconstructions.com.au/robots.txt",
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 106
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/sitemap.xml",
+      "status": 200,
+      "final_url": "https://www.sukhmaniconstructions.com.au/sitemap.xml",
+      "content_type": "application/xml",
+      "x_robots_tag": null,
+      "bytes": 2188
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/llms.txt",
+      "status": 200,
+      "final_url": "https://www.sukhmaniconstructions.com.au/llms.txt",
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 999
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/projects/",
+      "status": 404,
+      "final_url": "https://www.sukhmaniconstructions.com.au/projects/",
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 79
+    },
+    {
+      "url": "https://www.sukhmaniconstructions.com.au/does-not-exist-qa/",
+      "status": 404,
+      "final_url": "https://www.sukhmaniconstructions.com.au/does-not-exist-qa/",
+      "content_type": "text/plain; charset=utf-8",
+      "x_robots_tag": null,
+      "bytes": 79
+    }
+  ],
+  "redirects": [
+    {
+      "url": "http://sukhmaniconstructions.com.au/",
+      "status": 308,
+      "location": "https://sukhmaniconstructions.com.au/"
+    },
+    {
+      "url": "https://sukhmaniconstructions.com.au/",
+      "status": 308,
+      "location": "https://www.sukhmaniconstructions.com.au/"
+    },
+    {
+      "url": "http://www.sukhmaniconstructions.com.au/",
+      "status": 308,
+      "location": "https://www.sukhmaniconstructions.com.au/"
+    }
+  ]
+}

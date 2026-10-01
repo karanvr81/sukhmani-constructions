@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sukhmani-constructions-sydney.karanvr81.chatgpt.site/sitemap.xml

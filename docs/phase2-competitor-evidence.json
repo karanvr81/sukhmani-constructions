@@ -1,0 +1,108 @@
+[
+  {
+    "url": "https://sydneysitecam.com.au/",
+    "status": 200,
+    "title": [
+      "Sydney Solar Security Camera for Construction Sites | $50/week"
+    ],
+    "schema_types": [],
+    "camera_links": [],
+    "h1_text_nodes_count": 33
+  },
+  {
+    "url": "https://oztechnologiesgroup.com.au/cctv-rental-construction",
+    "status": 200,
+    "title": [
+      "Construction Site CCTV Rental Sydney | Oz Technologies"
+    ],
+    "schema_types": [
+      "FAQPage"
+    ],
+    "camera_links": [],
+    "h1_text_nodes_count": 7
+  },
+  {
+    "url": "https://jobcam.com.au/locations/sydney",
+    "status": 200,
+    "title": [
+      "Construction Site Cameras Sydney & NSW | JobCam Australia"
+    ],
+    "schema_types": [
+      "BreadcrumbList",
+      "FAQPage"
+    ],
+    "camera_links": [
+      "/construction-site-cameras",
+      "/remote-monitoring-cameras",
+      "/construction-time-lapse-cameras",
+      "/temporary-site-security-cameras",
+      "/solar-site-cameras"
+    ],
+    "h1_text_nodes_count": 3
+  },
+  {
+    "url": "https://www.call2hire.com.au/equipment-hire/site-security-camera-hire",
+    "status": 200,
+    "title": [
+      "\n    \n    Site security camera hire | Sydney\n  \n  "
+    ],
+    "schema_types": [
+      "BreadcrumbList"
+    ],
+    "camera_links": [],
+    "h1_text_nodes_count": 1
+  },
+  {
+    "url": "https://hexagonvalley.com.au/services/security-cameras/construction-site-camera-hire/",
+    "status": 200,
+    "title": [
+      "Construction Site Camera Hire | Solar CCTV | Hexagon Valley"
+    ],
+    "schema_types": [
+      "FAQPage"
+    ],
+    "camera_links": [
+      "https://hexagonvalley.com.au/services/security-cameras/",
+      "https://hexagonvalley.com.au/services/security-cameras/construction-site-camera-hire/",
+      "https://hexagonvalley.com.au/home-security-mid-north-coast/",
+      "https://hexagonvalley.com.au/home-security-cameras-port-macquarie/",
+      "https://hexagonvalley.com.au/home-security-cameras-lake-cathie/",
+      "https://hexagonvalley.com.au/home-security-cameras-bonny-hills/",
+      "https://hexagonvalley.com.au/mid-north-coast/home-security-mid-north-coast/home-security-cameras-kempsey/",
+      "https://hexagonvalley.com.au/mid-north-coast/home-security-mid-north-coast/home-security-cameras-laurieton/",
+      "https://hexagonvalley.com.au/mid-north-coast/home-security-mid-north-coast/home-security-cameras-wauchope/"
+    ],
+    "h1_text_nodes_count": 1
+  },
+  {
+    "url": "https://sitesec.com.au/site-security-cameras-for-hire-nsw/",
+    "status": 200,
+    "title": [
+      "Site Security Cameras For Hire NSW | Temporary Construction Solutions"
+    ],
+    "schema_types": [
+      "WebPage",
+      "ImageObject",
+      "BreadcrumbList",
+      "WebSite"
+    ],
+    "camera_links": [
+      "/site-security-cameras-for-hire-qld/",
+      "https://sitesec.com.au/site-security-cameras-brisbane/",
+      "https://sitesec.com.au/site-security-cameras-gold-coast/",
+      "/site-security-cameras-for-hire-nsw/",
+      "https://sitesec.com.au/site-security-cameras-sydney/",
+      "/site-security-cameras-for-hire-vic/",
+      "https://sitesec.com.au/site-security-cameras-melbourne/",
+      "/site-security-cameras-for-hire-perth/",
+      "https://sitesec.com.au/industrial-security-cameras/",
+      "https://sitesec.com.au/building-site-surveillance-camera/",
+      "https://sitesec.com.au/government-security-camera-hire/",
+      "https://sitesec.com.au/event-security-camera-hire/",
+      "https://sitesec.com.au/wireless-outdoor-security-cameras/",
+      "https://sitesec.com.au/construction-time-lapse-camera/",
+      "https://sitesec.com.au/ai-security-camera/"
+    ],
+    "h1_text_nodes_count": 1
+  }
+]
