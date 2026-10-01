@@ -5,6 +5,16 @@
   "trailingSlash": true,
   "redirects": [
     {
+      "source": "/Services/Solar-Security-Cameras/",
+      "destination": "/solar-camera-hire-sydney/",
+      "permanent": true
+    },
+    {
+      "source": "/Services/Solar-Security-Cameras",
+      "destination": "/solar-camera-hire-sydney/",
+      "permanent": true
+    },
+    {
       "source": "/Services/Solar-Security-Cameras/:path*",
       "destination": "/solar-camera-hire-sydney/",
       "permanent": true

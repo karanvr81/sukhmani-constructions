@@ -1,0 +1,57 @@
+[
+  {
+    "path": "/",
+    "status": 200,
+    "finalUrl": "https://sukhmani-constructions.vercel.app/",
+    "type": "text/html; charset=utf-8",
+    "robots": "noindex, follow",
+    "bytes": 47796
+  },
+  {
+    "path": "/Contact/",
+    "status": 200,
+    "finalUrl": "https://sukhmani-constructions.vercel.app/Contact/",
+    "type": "text/html; charset=utf-8",
+    "robots": "noindex, follow",
+    "bytes": 43161,
+    "newForm": true,
+    "hasPromo": false,
+    "sitekeyConfigured": false
+  },
+  {
+    "path": "/api/quote",
+    "status": 405,
+    "type": null,
+    "robots": "noindex, follow"
+  },
+  {
+    "path": "/Services/Solar-Security-Cameras/",
+    "status": 200,
+    "finalUrl": "https://sukhmani-constructions.vercel.app/Services/Solar-Security-Cameras/",
+    "type": "text/html; charset=utf-8",
+    "robots": "noindex, follow",
+    "bytes": 404
+  },
+  {
+    "path": "/robots.txt",
+    "status": 200,
+    "finalUrl": "https://sukhmani-constructions.vercel.app/robots.txt",
+    "type": "text/plain; charset=utf-8",
+    "robots": "noindex, follow",
+    "bytes": 86
+  },
+  {
+    "path": "/sitemap.xml",
+    "status": 200,
+    "finalUrl": "https://sukhmani-constructions.vercel.app/sitemap.xml",
+    "type": "application/xml; charset=utf-8",
+    "robots": "noindex, follow",
+    "bytes": 2876
+  },
+  {
+    "path": "/does-not-exist-qa/",
+    "status": 404,
+    "type": "text/html; charset=utf-8",
+    "robots": "noindex, follow"
+  }
+]
