@@ -1,0 +1,17 @@
+[
+  {
+    "path": "/Services/Solar-Security-Cameras/",
+    "error": "<urlopen error timed out>"
+  },
+  {
+    "path": "/Services/Solar-Security-Cameras",
+    "status": 308,
+    "location": "/Services/Solar-Security-Cameras/"
+  },
+  {
+    "path": "/Services/Solar-Security-Cameras/?release=1288ea6",
+    "status": 308,
+    "location": "/solar-camera-hire-sydney/?release=1288ea6",
+    "note": "Fresh query verification of the deployed legacy redirect"
+  }
+]
