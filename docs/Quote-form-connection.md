@@ -1,0 +1,24 @@
+# Connect real quote delivery before production
+
+The form now posts to the Vercel Node function `api/quote.mjs`, with no email-app requirement. There are no secrets or live provider connections in this repository. Until configured it fails safely, preserves typed details and shows call/WhatsApp alternatives.
+
+## Exact connections required
+
+1. Connect a Resend account at https://resend.com/ and verify a sender domain you control (for example `sukhmaniconstructions.com.au`) using its required sending DNS records. Do not change existing MX records or the current mailbox. Sender-domain verification is not mailbox migration. Create a sending API key in Resend, then enter it directly in Vercel environment variables. Do not send it in chat or commit it.
+2. In Vercel project `sukhmani-constructions`, set `RESEND_API_KEY`, `QUOTE_FROM_EMAIL` (an approved address on that verified sender domain, e.g. `Sukhmani Website <website@sukhmaniconstructions.com.au>`), and `QUOTE_TO_EMAIL` (owner confirms the destination; current public contact is `amjeetsachdeva@gmail.com`). The sender example is a setup example, not an existing verified address.
+3. Create a Cloudflare Turnstile widget at https://dash.cloudflare.com/ with allowed hosts `www.sukhmaniconstructions.com.au`, `sukhmaniconstructions.com.au` and `sukhmani-constructions.vercel.app`. Add the actual deployment hostname if testing a protected deployment URL. Set `TURNSTILE_SECRET_KEY` as a server secret and `TURNSTILE_SITE_KEY` as the public build-time key in Vercel. Production uses real keys; test keys must not be used for a production release.
+4. Select the intended Vercel environment(s), then redeploy: the public widget key is inserted at build time. For a missing public key the UI displays an unavailable message; for missing server keys the API responds 503. No request is reported successful at either boundary.
+5. Send one clearly labelled owner-approved test enquiry, with and without a permitted plan attachment. Check Resend accepted/delivered/bounced status, actual destination inbox/spam, reply-to, phone/site/details, and attachment. “Accepted for sending” is not proof of inbox delivery. No live test email was sent by this audit.
+6. Monitor failed/bounced emails in the provider; set owner alerts and retention/access controls. Do not log enquiry bodies or attachments in application logs. The form does not implement a database queue or guaranteed eventual delivery. Timeouts may occur after provider acceptance; retries use a stable provider idempotency key to reduce duplicates during the provider's retention window.
+
+## Security and product behaviour
+
+POST-only same-origin allowlist; JSON and bounded body; field allowlist/length/format validation; hidden spam trap plus mandatory server-verified Turnstile action/hostname; fixed recipient/sender on server; no PII application logs; outbound timeouts; no success without a provider receipt. Attachments limited to PDF/JPG/PNG, 2 MB, with size/MIME/signature validation and fixed filename. They are sent as email attachments, never executed or publicly hosted. Signature checking is not malware scanning: treat plans as untrusted in the recipient's email client; do not publish them. Turnstile is not a distributed rate limiter: add a suitable Vercel Firewall rate-limit rule for POST `/api/quote` before public launch if available, and review provider abuse/usage limits. No paid firewall feature was purchased.
+
+Required fields: name, email, phone, service, suburb/postcode and short details. Company/start date optional. Camera quantity/duration appear only for solar cameras. All failures retain the entered message on the current page; there is no automatic browser persistence of PII. Success keeps a readable copy and shows a reference. Leaving/reloading the page discards unsent details.
+
+## Conversion tracking
+
+Hooks exist for `quote_submission` (only provider-accepted API response), `phone_click`, `whatsapp_click`, `quote_cta_click`. They send only event name and service type, excluding name/email/phone/location/free text/attachment. Hooks run only for the stored “accept” choice and only call an existing `gtag` or `dataLayer`; no analytics script/account was added. No analytics provider is currently connected, so no collection or dashboard conversion was verified. If analytics is enabled: provide its approved measurement ID, restore a visible consent control (the inherited banner is hidden), load optional tracking only after consent, allow withdrawal, update policies and verify events in the provider's debug view. Do not treat hooks as working analytics.
+
+Official references: https://vercel.com/docs/functions/runtimes/node-js ; https://resend.com/docs/api-reference/emails/send-email ; https://resend.com/docs/dashboard/domains/introduction ; https://resend.com/docs/dashboard/emails/idempotency-keys ; https://developers.cloudflare.com/turnstile/get-started/server-side-validation/ .

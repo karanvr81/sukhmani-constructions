@@ -26,7 +26,7 @@ For **Sukhmani Constructions** equipment only. Complete one column per configura
 | Multiple users; separate accounts/permissions? | | |
 | Multiple sites in one app/account? | | |
 | Notifications; how delivered and any dependencies? | | |
-| Motion/person detection; supported features? | | |
+| Motion/person/vehicle detection; supported features? | | |
 | Solar panel wattage and manufacturer/model? | | |
 | Battery capacity, chemistry and manufacturer/model? | | |
 | Low-sun operation: documented duration and test conditions, not a guarantee? | | |

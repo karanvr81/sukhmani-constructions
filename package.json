@@ -1,0 +1,12 @@
+{
+  "name": "sukhmani-constructions",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": "24.x"
+  },
+  "scripts": {
+    "build": "node scripts/generate-routes.mjs && node scripts/validate-seo.mjs",
+    "test": "node --test tests/*.test.mjs"
+  }
+}

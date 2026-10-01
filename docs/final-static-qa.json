@@ -1,0 +1,9 @@
+{
+  "pages": 23,
+  "localReferences": 1009,
+  "images": 61,
+  "uniqueIds": true,
+  "oneMainH1": true,
+  "jsonldSyntax": true,
+  "noTestCaptchaKey": true
+}

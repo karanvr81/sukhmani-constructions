@@ -1,0 +1,781 @@
+{
+  "timeUTC": "2026-10-01T05:54:33Z",
+  "base": "https://sukhmani-constructions.vercel.app",
+  "routes": [
+    {
+      "path": "/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 45634,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Sukhmani Constructions | Sydney Building Services"
+      ],
+      "h1": [
+        "Protecting",
+        "Sydney\u2019s ",
+        "construction",
+        "sites."
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/"
+      ],
+      "mainTextChars": 2847,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/4e22e3705_WhatsAppImage2026-07-07at13605PM.webp",
+        "/assets/f00a7a8c5_Untitled_design__4_.webp",
+        "/assets/24b9dcf83_WhatsApp_Image_2026-08-01_at_64840_PM.webp",
+        "/assets/b0a0863fc_generated_image.webp",
+        "/assets/bb2d987bd_generated_image.webp",
+        "/assets/304573c8b_generated_image.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/solar-camera-hire-sydney/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/solar-camera-hire-sydney/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 44870,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Solar Security Camera Hire Sydney | Sukhmani Constructions"
+      ],
+      "h1": [
+        "Solar Security Camera Hire Sydney"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/solar-camera-hire-sydney/"
+      ],
+      "mainTextChars": 3737,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/PrivacyPolicy/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/PrivacyPolicy/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 39377,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Privacy Policy | Sukhmani Constructions"
+      ],
+      "h1": [
+        "Privacy Policy"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/PrivacyPolicy/"
+      ],
+      "mainTextChars": 1604,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/construction-site-camera-system/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/construction-site-camera-system/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 42044,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Construction Site Camera System | Sukhmani Sydney"
+      ],
+      "h1": [
+        "Construction Site Camera System"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/construction-site-camera-system/"
+      ],
+      "mainTextChars": 2257,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/FAQ/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/FAQ/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 42696,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Construction Services FAQ | Sukhmani Constructions"
+      ],
+      "h1": [
+        "Frequently Asked",
+        "Questions"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/FAQ/"
+      ],
+      "mainTextChars": 2135,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/About/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/About/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 39319,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "About Sukhmani Constructions | Sydney"
+      ],
+      "h1": [
+        "Sydney's Trusted",
+        "Construction Partner"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/About/"
+      ],
+      "mainTextChars": 754,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/Contact/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/Contact/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 41013,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Free Construction Quote Sydney | Sukhmani Constructions"
+      ],
+      "h1": [
+        "Request a ",
+        "Quote"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/Contact/"
+      ],
+      "mainTextChars": 1001,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/insights/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/insights/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 39431,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Sydney Construction Insights | Sukhmani Constructions"
+      ],
+      "h1": [
+        "Sydney Construction Insights"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/insights/"
+      ],
+      "mainTextChars": 891,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/construction-camera-hire-cost/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/construction-camera-hire-cost/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 41849,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Construction Camera Hire Costs Sydney | Sukhmani"
+      ],
+      "h1": [
+        "Construction Camera Hire Costs"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/construction-camera-hire-cost/"
+      ],
+      "mainTextChars": 2193,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/Services/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/Services/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 56880,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Construction Services Sydney | Sukhmani Constructions"
+      ],
+      "h1": [
+        "Construction Site",
+        "Solutions"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/Services/"
+      ],
+      "mainTextChars": 3955,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/4e22e3705_WhatsAppImage2026-07-07at13605PM.webp",
+        "/assets/f00a7a8c5_Untitled_design__4_.webp",
+        "/assets/24b9dcf83_WhatsApp_Image_2026-08-01_at_64840_PM.webp",
+        "/assets/6535e8dab_ChatGPT_Image_Aug_1__2026__06_54_32_PM.webp",
+        "/assets/b0a0863fc_generated_image.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/Terms/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/Terms/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 39211,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Terms & Conditions | Sukhmani Constructions"
+      ],
+      "h1": [
+        "Terms & Conditions"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/Terms/"
+      ],
+      "mainTextChars": 1332,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/CookiePolicy/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/CookiePolicy/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 38644,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Cookie Policy | Sukhmani Constructions"
+      ],
+      "h1": [
+        "Cookie Policy"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/CookiePolicy/"
+      ],
+      "mainTextChars": 812,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/site-camera-no-wifi-power/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/site-camera-no-wifi-power/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 41861,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Site Cameras Without Wi-Fi or Mains Power | Sukhmani"
+      ],
+      "h1": [
+        "Site Cameras Without Wi-Fi or Mains Power"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/site-camera-no-wifi-power/"
+      ],
+      "mainTextChars": 2225,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/HowItWorks/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/HowItWorks/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 39388,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "How It Works | Sukhmani Constructions Sydney"
+      ],
+      "h1": [
+        "Our Simple",
+        "5-Step Process"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/HowItWorks/"
+      ],
+      "mainTextChars": 741,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/how-camera-hire-works/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/how-camera-hire-works/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 41898,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "How Construction Camera Hire Works | Sukhmani Sydney"
+      ],
+      "h1": [
+        "How Construction Camera Hire Works"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/how-camera-hire-works/"
+      ],
+      "mainTextChars": 2220,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/insights/construction-site-security-checklist/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/insights/construction-site-security-checklist/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 42009,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Construction Site Security Checklist | Sukhmani Sydney"
+      ],
+      "h1": [
+        "Planning Construction Site Security in Sydney"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/insights/construction-site-security-checklist/"
+      ],
+      "mainTextChars": 1856,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/insights/construction-site-shutdown-preparation/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/insights/construction-site-shutdown-preparation/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 41698,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Construction Site Shutdown Preparation | Sukhmani"
+      ],
+      "h1": [
+        "Preparing a Construction Site for a Shutdown"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/insights/construction-site-shutdown-preparation/"
+      ],
+      "mainTextChars": 1819,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/insights/managing-camera-access-across-sites/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/insights/managing-camera-access-across-sites/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 41654,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Managing Camera Access Across Building Sites | Sukhmani"
+      ],
+      "h1": [
+        "Managing Camera Access Across Building Sites"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/insights/managing-camera-access-across-sites/"
+      ],
+      "mainTextChars": 1826,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/Services/Termite-Protection/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/Services/Termite-Protection/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 46597,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Pre-Construction Termite Protection Sydney | Sukhmani"
+      ],
+      "h1": [
+        "Termite Protection",
+        "Sydney"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/Services/Termite-Protection/"
+      ],
+      "mainTextChars": 2549,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/6535e8dab_ChatGPT_Image_Aug_1__2026__06_54_32_PM.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/Services/Construction-Site-Cleaning/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/Services/Construction-Site-Cleaning/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 46521,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Construction Site Cleaning Sydney | Sukhmani"
+      ],
+      "h1": [
+        "Construction Site Cleaning",
+        "Sydney"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/Services/Construction-Site-Cleaning/"
+      ],
+      "mainTextChars": 2411,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/b0a0863fc_generated_image.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/Services/Insulation-Installation/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/Services/Insulation-Installation/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 46478,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Insulation Installation Sydney | Sukhmani Constructions"
+      ],
+      "h1": [
+        "Insulation Installation",
+        "Sydney"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/Services/Insulation-Installation/"
+      ],
+      "mainTextChars": 2513,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/f00a7a8c5_Untitled_design__4_.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/Services/Sarking-Installation/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/Services/Sarking-Installation/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 46549,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Sarking Installation Sydney | Sukhmani Constructions"
+      ],
+      "h1": [
+        "Sarking Installation",
+        "Sydney"
+      ],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/Services/Sarking-Installation/"
+      ],
+      "mainTextChars": 2498,
+      "assets": [
+        "https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap",
+        "/assets/vendor/lenis.css",
+        "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+        "/assets/24b9dcf83_WhatsApp_Image_2026-08-01_at_64840_PM.webp",
+        "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+        "/assets/vendor/lenis.min.js"
+      ],
+      "jsonldValid": true
+    },
+    {
+      "path": "/robots.txt",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/robots.txt",
+      "type": "text/plain; charset=utf-8",
+      "bytes": 86,
+      "robotsHeader": null,
+      "encoding": null,
+      "contents": "User-agent: *\nAllow: /\n\nSitemap: https://www.sukhmaniconstructions.com.au/sitemap.xml\n"
+    },
+    {
+      "path": "/sitemap.xml",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/sitemap.xml",
+      "type": "application/xml; charset=utf-8",
+      "bytes": 2876,
+      "robotsHeader": null,
+      "encoding": null,
+      "sitemapCount": 19,
+      "xmlValid": true
+    },
+    {
+      "path": "/llms.txt",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/llms.txt",
+      "type": "text/plain; charset=utf-8",
+      "bytes": 1313,
+      "robotsHeader": null,
+      "encoding": null
+    },
+    {
+      "path": "/Services/Solar-Security-Cameras/",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/Services/Solar-Security-Cameras/",
+      "type": "text/html; charset=utf-8",
+      "bytes": 404,
+      "robotsHeader": null,
+      "encoding": null,
+      "title": [
+        "Solar Camera Hire Sydney"
+      ],
+      "h1": [],
+      "canonical": [
+        "https://www.sukhmaniconstructions.com.au/solar-camera-hire-sydney/"
+      ],
+      "mainTextChars": 0,
+      "assets": [],
+      "jsonldValid": true
+    },
+    {
+      "path": "/does-not-exist-qa/",
+      "status": 404
+    }
+  ],
+  "assets": [
+    {
+      "path": "/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/assets/2094067a1_sukhmani__2_-removebg-preview.webp",
+      "type": "image/webp",
+      "bytes": 25358,
+      "robotsHeader": null,
+      "encoding": null
+    },
+    {
+      "path": "/assets/24b9dcf83_WhatsApp_Image_2026-08-01_at_64840_PM.webp",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/assets/24b9dcf83_WhatsApp_Image_2026-08-01_at_64840_PM.webp",
+      "type": "image/webp",
+      "bytes": 354764,
+      "robotsHeader": null,
+      "encoding": null
+    },
+    {
+      "path": "/assets/304573c8b_generated_image.webp",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/assets/304573c8b_generated_image.webp",
+      "type": "image/webp",
+      "bytes": 206020,
+      "robotsHeader": null,
+      "encoding": null
+    },
+    {
+      "path": "/assets/4e22e3705_WhatsAppImage2026-07-07at13605PM.webp",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/assets/4e22e3705_WhatsAppImage2026-07-07at13605PM.webp",
+      "type": "image/webp",
+      "bytes": 142000,
+      "robotsHeader": null,
+      "encoding": null
+    },
+    {
+      "path": "/assets/6535e8dab_ChatGPT_Image_Aug_1__2026__06_54_32_PM.webp",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/assets/6535e8dab_ChatGPT_Image_Aug_1__2026__06_54_32_PM.webp",
+      "type": "image/webp",
+      "bytes": 276462,
+      "robotsHeader": null,
+      "encoding": null
+    },
+    {
+      "path": "/assets/b0a0863fc_generated_image.webp",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/assets/b0a0863fc_generated_image.webp",
+      "type": "image/webp",
+      "bytes": 222930,
+      "robotsHeader": null,
+      "encoding": null
+    },
+    {
+      "path": "/assets/bb2d987bd_generated_image.webp",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/assets/bb2d987bd_generated_image.webp",
+      "type": "image/webp",
+      "bytes": 270454,
+      "robotsHeader": null,
+      "encoding": null
+    },
+    {
+      "path": "/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/assets/ef567d493_sukhmani__1_-removebg-preview.webp",
+      "type": "image/webp",
+      "bytes": 26584,
+      "robotsHeader": null,
+      "encoding": null
+    },
+    {
+      "path": "/assets/f00a7a8c5_Untitled_design__4_.webp",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/assets/f00a7a8c5_Untitled_design__4_.webp",
+      "type": "image/webp",
+      "bytes": 240752,
+      "robotsHeader": null,
+      "encoding": null
+    },
+    {
+      "path": "/assets/vendor/lenis.css",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/assets/vendor/lenis.css",
+      "type": "text/css; charset=utf-8",
+      "bytes": 513,
+      "robotsHeader": null,
+      "encoding": null
+    },
+    {
+      "path": "/assets/vendor/lenis.min.js",
+      "status": 200,
+      "url": "https://sukhmani-constructions.vercel.app/assets/vendor/lenis.min.js",
+      "type": "application/javascript; charset=utf-8",
+      "bytes": 18722,
+      "robotsHeader": null,
+      "encoding": null
+    }
+  ]
+}

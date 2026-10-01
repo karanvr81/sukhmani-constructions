@@ -90,7 +90,7 @@ const faqItems = [
   ['Do the cameras require mains power?', 'No. Our site-camera systems are solar powered.'],
   ['Can I view the cameras remotely?', 'Yes. Remote viewing is available through a connected device.'],
   ['What types of cleaning do you offer?', 'Builders cleans, final handover cleans and general construction site clean-up.'],
-  ['How quickly can you start?', 'Timing depends on the service and location, but we typically respond within 24 hours.'],
+  ['How quickly can you start?', 'Timing depends on the service and location, and is confirmed when we review your enquiry.'],
   ['How do I request a quote?', 'Use the quote form or message us through WhatsApp.'],
 ];
 
@@ -199,7 +199,10 @@ function replaceMeta(html, route) {
     .replace(/<main id="app">[\s\S]*?<\/main>/, () => prerenderFor(route, html));
 }
 
-const template = await readFile(templatePath, 'utf8');
+const siteKey = process.env.TURNSTILE_SITE_KEY || '';
+if (siteKey && !/^[A-Za-z0-9_-]{10,100}$/.test(siteKey)) throw new Error('Invalid public Turnstile site key');
+const template = (await readFile(templatePath, 'utf8')).replaceAll('__TURNSTILE_SITE_KEY__', siteKey);
+await writeFile(join(root,'dist','assets','quote-client.js'), await readFile(join(root,'src','quote-client.js')));
 const assets = JSON.parse(await readFile(join(root,'src','assets.json'),'utf8'));
 
 const notFoundRoute = {path:'/404/', title:'Page Not Found | Sukhmani Constructions', description:'Find Sukhmani Constructions services or contact the team about your Sydney site.', type:'WebPage', noindex:true, notFound:true};

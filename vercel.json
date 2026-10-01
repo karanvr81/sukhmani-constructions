@@ -5,12 +5,27 @@
   "trailingSlash": true,
   "redirects": [
     {
-      "source": "/Services/Solar-Security-Cameras",
+      "source": "/Services/Solar-Security-Cameras/:path*",
       "destination": "/solar-camera-hire-sydney/",
       "permanent": true
     }
   ],
   "headers": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "(?<preview>.*)\\.vercel\\.app"
+        }
+      ],
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, follow"
+        }
+      ]
+    },
     {
       "source": "/robots.txt",
       "headers": [
@@ -51,5 +66,10 @@
         }
       ]
     }
-  ]
+  ],
+  "functions": {
+    "api/quote.mjs": {
+      "maxDuration": 30
+    }
+  }
 }
