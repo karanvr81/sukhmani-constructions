@@ -17,6 +17,8 @@
         "color": "rgb(255, 162, 0)"
       },
       "checks": [
+        "blank message allowed; no minimum length",
+        "header 600+ Cameras Active",
         "date absent",
         "required/invalid-email blocked",
         "camera conditional fields",
@@ -45,6 +47,8 @@
         "color": "rgb(255, 162, 0)"
       },
       "checks": [
+        "blank message allowed; no minimum length",
+        "header 600+ Cameras Active",
         "date absent",
         "required/invalid-email blocked",
         "camera conditional fields",
@@ -73,6 +77,8 @@
         "color": "rgb(255, 162, 0)"
       },
       "checks": [
+        "blank message allowed; no minimum length",
+        "header 600+ Cameras Active",
         "date absent",
         "required/invalid-email blocked",
         "camera conditional fields",

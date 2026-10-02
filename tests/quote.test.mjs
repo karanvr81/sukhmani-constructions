@@ -9,7 +9,7 @@ const stub=(calls=[],delivery={id:'mock-receipt'},check=verification)=>async(url
 test('valid enquiry is accepted only after verified captcha and provider acknowledgement',async()=>{const calls=[];const r=await createQuoteHandler(env,stub(calls))(req());assert.equal(r.status,200);assert.equal((await r.json()).ok,true);assert.equal(calls.length,2);const email=JSON.parse(calls[1].options.body);assert.equal(email.reply_to,valid.email);assert.match(email.text,/Sydney 2000/);assert.equal(email.to[0],env.QUOTE_TO_EMAIL);assert.equal(email.from,env.QUOTE_FROM_EMAIL);assert.match(email.text,/Attachment: None/);assert.doesNotMatch(email.text,/start date|startDate/i);});
 test('missing configuration fails closed without sending',async()=>{let sent=false;const r=await createQuoteHandler({},async()=>{sent=true;})(req());assert.equal(r.status,503);assert.equal(sent,false);});
 test('forged origin is blocked',async()=>{assert.equal((await createQuoteHandler(env,stub())(req(valid,'https://attacker.example'))).status,403);});
-test('reject required fields, unsupported service, header injection and invalid email',async()=>{for(const change of [{name:''},{site:''},{details:'short'},{service:'fake'},{email:'a@example.com\r\nBcc: leak@example.com'},{email:'invalid-email'},{cameraQuantity:'0'}])assert.equal((await createQuoteHandler(env,stub())(req({...valid,...change}))).status,400);});
+test('reject required fields, unsupported service, header injection and invalid email',async()=>{for(const change of [{name:''},{site:''},{service:'fake'},{email:'a@example.com\r\nBcc: leak@example.com'},{email:'invalid-email'},{cameraQuantity:'0'}])assert.equal((await createQuoteHandler(env,stub())(req({...valid,...change}))).status,400);});
 test('spam trap and expired, wrong hostname or wrong action captcha are blocked',async()=>{assert.equal((await createQuoteHandler(env,stub())(req({...valid,website:'spam'}))).status,400);for(const check of [{success:false},{...verification,hostname:'attacker.example'},{...verification,action:'other'}])assert.equal((await createQuoteHandler(env,stub([],{},check))(req())).status,400);});
 test('attachment signature and size enforced; valid attachment name normalised',async()=>{assert.equal((await createQuoteHandler(env,stub())(req({...valid,attachment:{type:'application/pdf',content:Buffer.from('not a PDF').toString('base64')}}))).status,400);const calls=[];assert.equal((await createQuoteHandler(env,stub(calls))(req({...valid,attachment:{type:'application/pdf',content:Buffer.from('%PDF-1.7\ntest').toString('base64')}}))).status,200);assert.equal(JSON.parse(calls[1].options.body).attachments[0].filename,'project-plan.pdf');assert.match(JSON.parse(calls[1].options.body).text,/Attachment: project-plan.pdf \(13 bytes\)/);});
 test('large payload rejected',async()=>{assert.equal((await createQuoteHandler(env,stub())(req({...valid,details:'x'.repeat(3000001)}))).status,413);});
@@ -24,4 +24,12 @@ test('provider rejection and reused captcha cannot cause a success response',asy
  assert.equal((await createQuoteHandler(env,stub(calls,{}, {success:false,'error-codes':['timeout-or-duplicate']}))(req())).status,400);
  assert.equal(calls.length,1);
  assert.equal((await createQuoteHandler(env,stub())(req({...valid,turnstileToken:''}))).status,400);
+});
+
+test('project message can be absent, blank or one word',async()=>{
+ for(const details of [undefined,'','hi']){
+  const calls=[];const r=await createQuoteHandler(env,stub(calls))(req({...valid,details}));
+  assert.equal(r.status,200);assert.equal(calls.length,2);
+  assert.match(JSON.parse(calls[1].options.body).text,details?/Project\/message details: hi/:/Project\/message details: Not provided/);
+ }
 });

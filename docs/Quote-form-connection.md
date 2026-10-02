@@ -77,7 +77,7 @@ Only after successful real captcha → backend → provider → Gmail inbox → 
 
 ## Verified code checks and limitations
 
-- 11 backend tests pass, including required/invalid input, origin, honeypot, captcha hostname/action/expiry/duplicate failure, upload signature/size, provider rejection/network failure, and idempotency.
+- 12 backend tests pass, including optional blank/one-word project messages, required/invalid contact input, origin, honeypot, captcha hostname/action/expiry/duplicate failure, upload signature/size, provider rejection/network failure, and idempotency.
 - Local Chromium checks pass at widths 1440, 390 and 320: date absent, conditional camera inputs, PDF submission payload, required/email validation, error preservation, one request on double-click, and success remaining on site. Turnstile and successful email responses were mocked; no real email was sent.
 - Real local missing-configuration submissions return 503 and preserve text plus the chosen attachment.
 - Successful API responses mean provider acceptance, not inbox delivery. The owner must confirm Gmail receipt.

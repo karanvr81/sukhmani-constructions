@@ -26,7 +26,7 @@ export function createQuoteHandler(env = process.env, send = fetch) {
   if(body.website) return json(400,{error:'We could not accept this request. Please call or WhatsApp us.'});
   const limits={name:100,company:120,email:254,phone:30,service:80,site:120,details:3000,cameraQuantity:3,hireDuration:100};
   const data={};for(const [key,limit] of Object.entries(limits)){data[key]=text(body[key]??'',limit);if(data[key]===null)return json(400,{error:'Please check the length and format of your fields.'});}
-  if(data.name.length<2 || !/^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(data.email) || /[\r\n]/.test(data.email) || !/^[+()\d\s.-]{6,30}$/.test(data.phone) || !services.has(data.service) || data.site.length<2 || data.details.length<10) return json(400,{error:'Please enter your name, valid email and phone, service, site suburb/postcode and at least 10 characters of project details.'});
+  if(data.name.length<2 || !/^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(data.email) || /[\r\n]/.test(data.email) || !/^[+()\d\s.-]{6,30}$/.test(data.phone) || !services.has(data.service) || data.site.length<2) return json(400,{error:'Please enter your name, valid email and phone, service, site suburb/postcode.'});
   if(data.service!=='Solar Security Cameras'){data.cameraQuantity='';data.hireDuration='';}
   if(data.cameraQuantity && !/^[1-9]\d{0,2}$/.test(data.cameraQuantity)) return json(400,{error:'Please enter a camera quantity between 1 and 999.'});
   if(!/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(body.requestId??''))return json(400,{error:'Please refresh the page and try again.'});
