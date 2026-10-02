@@ -9,7 +9,7 @@ Desktop contact validation and phone/email/WhatsApp targets were checked in the 
 ## FIXED
 
 - Replaced mailto quote submission with a same-origin Vercel server function and secure email-provider integration, ready for the exact connections listed in `Quote-form-connection.md`.
-- Added required site suburb/postcode and short project details, optional start date, and camera-only quantity/duration. Kept the original form layout and visual system.
+- Added required site suburb/postcode and short project details, and camera-only quantity/duration (the owner removed the preferred-start-date field on 2 October 2026). Kept the original form layout and visual system.
 - Added required-field/server validation, mandatory verified bot check, spam trap, body/attachment limits, safe attachment filenames/signatures, outbound timeouts and email idempotency. Failures preserve typed details and do not show false success.
 - Added a reference-based accepted-for-sending state. Provider acceptance is distinguished from inbox delivery.
 - Added consent-gated conversion hooks without installing another tracker or collecting enquiry text in analytics.

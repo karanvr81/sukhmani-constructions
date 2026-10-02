@@ -15,7 +15,7 @@
  select.addEventListener('change',cameraFields);cameraFields();
  form.addEventListener('input',()=>{requestId=crypto.randomUUID();status.textContent='';});
  const captcha=form.querySelector('[data-sitekey]');
- window.sukhmaniCaptchaReady=()=>{if(captcha.dataset.sitekey)widget=window.turnstile.render(captcha,{sitekey:captcha.dataset.sitekey,action:'quote',theme:'dark',size:matchMedia('(max-width:380px)').matches?'compact':'flexible'});};
+ window.sukhmaniCaptchaReady=()=>{if(captcha.dataset.sitekey)widget=window.turnstile.render(captcha,{sitekey:captcha.dataset.sitekey,action:'quote',theme:'dark',size:matchMedia('(max-width:380px)').matches?'compact':'flexible','error-callback':()=>{status.textContent='The security check failed to load. Please retry the check. Your details remain here.';},'expired-callback':()=>{status.textContent='The security check expired. Please complete it again. Your details remain here.';},'timeout-callback':()=>{status.textContent='The security check timed out. Please retry the check. Your details remain here.';}});};
  if(captcha.dataset.sitekey){const script=document.createElement('script');script.src='https://challenges.cloudflare.com/turnstile/v0/api.js?onload=sukhmaniCaptchaReady&render=explicit';script.async=true;script.defer=true;script.onerror=()=>{status.textContent='The security check could not load. Please retry, call or WhatsApp us.';};document.head.append(script);}
  const resetCaptcha=()=>{if(widget!==undefined&&window.turnstile)window.turnstile.reset(widget);};
  form.addEventListener('submit',async e=>{
@@ -28,10 +28,10 @@
   button.disabled=true;button.textContent='Sending…';form.setAttribute('aria-busy','true');status.textContent='Sending your enquiry…';
   try{
    if(file){const content=await new Promise((resolve,reject)=>{const reader=new FileReader();reader.onload=()=>resolve(reader.result.split(',')[1]);reader.onerror=reject;reader.readAsDataURL(file);});data.attachment={type:file.type,content};}
-   const response=await fetch('/api/quote',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data),signal:AbortSignal.timeout(25000)});
+   const response=await fetch('/api/quote/',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(data),signal:AbortSignal.timeout(25000)});
    const result=await response.json();if(!response.ok||result.ok!==true)throw Error(result.error||'We could not confirm your enquiry was accepted. Retry or call us.');
-   status.textContent='Your enquiry has been accepted for sending. Reference: '+result.reference+'. If you need an urgent answer, please call us.';
-   track('quote_submission',select.value);button.textContent='Enquiry accepted';
+   status.textContent='Thanks — your quote request has been sent. Reference: '+result.reference+'.';
+   track('quote_submission',select.value);button.textContent='Quote request sent';
    // Preserve a readable copy. A new input enables a new enquiry with a new ID.
    form.addEventListener('input',()=>{button.disabled=false;button.textContent='Request Quote';},{once:true});
   }catch(error){status.textContent=(error.name==='TimeoutError'||error.name==='AbortError')?'We could not confirm acceptance before the connection timed out. Your details remain here. Retry or call us.':error.message;button.disabled=false;button.textContent='Request Quote';}

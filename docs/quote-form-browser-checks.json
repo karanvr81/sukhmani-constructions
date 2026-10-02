@@ -1,0 +1,90 @@
+{
+  "date": "2026-10-02",
+  "scope": "Local Chromium with mocked Turnstile and provider success/failure; real local backend for configuration failure. No real inbox delivery verified.",
+  "results": [
+    {
+      "width": 1440,
+      "pass": true,
+      "stats": [
+        "2,500+Jobs Completed",
+        "200+Happy Clients",
+        "600+Cameras Active",
+        "4+Years Experience"
+      ],
+      "styles": {
+        "columns": 4,
+        "background": "rgb(15, 23, 42)",
+        "color": "rgb(255, 162, 0)"
+      },
+      "checks": [
+        "date absent",
+        "required/invalid-email blocked",
+        "camera conditional fields",
+        "PDF submitted",
+        "real local backend missing credentials 503 preserves inputs/file",
+        "captcha failure blocks sending",
+        "provider/network failure preserves inputs/file",
+        "mocked success remains on website",
+        "double-click sends once",
+        "no overflow or script errors"
+      ],
+      "realEmailSent": false
+    },
+    {
+      "width": 390,
+      "pass": true,
+      "stats": [
+        "2,500+Jobs Completed",
+        "200+Happy Clients",
+        "600+Cameras Active",
+        "4+Years Experience"
+      ],
+      "styles": {
+        "columns": 2,
+        "background": "rgb(15, 23, 42)",
+        "color": "rgb(255, 162, 0)"
+      },
+      "checks": [
+        "date absent",
+        "required/invalid-email blocked",
+        "camera conditional fields",
+        "PDF submitted",
+        "real local backend missing credentials 503 preserves inputs/file",
+        "captcha failure blocks sending",
+        "provider/network failure preserves inputs/file",
+        "mocked success remains on website",
+        "double-click sends once",
+        "no overflow or script errors"
+      ],
+      "realEmailSent": false
+    },
+    {
+      "width": 320,
+      "pass": true,
+      "stats": [
+        "2,500+Jobs Completed",
+        "200+Happy Clients",
+        "600+Cameras Active",
+        "4+Years Experience"
+      ],
+      "styles": {
+        "columns": 2,
+        "background": "rgb(15, 23, 42)",
+        "color": "rgb(255, 162, 0)"
+      },
+      "checks": [
+        "date absent",
+        "required/invalid-email blocked",
+        "camera conditional fields",
+        "PDF submitted",
+        "real local backend missing credentials 503 preserves inputs/file",
+        "captcha failure blocks sending",
+        "provider/network failure preserves inputs/file",
+        "mocked success remains on website",
+        "double-click sends once",
+        "no overflow or script errors"
+      ],
+      "realEmailSent": false
+    }
+  ]
+}

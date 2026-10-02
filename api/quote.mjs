@@ -24,10 +24,9 @@ export function createQuoteHandler(env = process.env, send = fetch) {
   } catch {return json(400,{error:'We could not read the request. Please try again.'});}
   if(!body || typeof body !== 'object' || Array.isArray(body)) return json(400,{error:'Invalid quote request.'});
   if(body.website) return json(400,{error:'We could not accept this request. Please call or WhatsApp us.'});
-  const limits={name:100,company:120,email:254,phone:30,service:80,site:120,details:3000,startDate:10,cameraQuantity:3,hireDuration:100};
+  const limits={name:100,company:120,email:254,phone:30,service:80,site:120,details:3000,cameraQuantity:3,hireDuration:100};
   const data={};for(const [key,limit] of Object.entries(limits)){data[key]=text(body[key]??'',limit);if(data[key]===null)return json(400,{error:'Please check the length and format of your fields.'});}
   if(data.name.length<2 || !/^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(data.email) || /[\r\n]/.test(data.email) || !/^[+()\d\s.-]{6,30}$/.test(data.phone) || !services.has(data.service) || data.site.length<2 || data.details.length<10) return json(400,{error:'Please enter your name, valid email and phone, service, site suburb/postcode and at least 10 characters of project details.'});
-  if(data.startDate && (!/^\d{4}-\d{2}-\d{2}$/.test(data.startDate) || !Number.isFinite(Date.parse(data.startDate)) || new Date(data.startDate).toISOString().slice(0,10)!==data.startDate)) return json(400,{error:'Please check your preferred start date.'});
   if(data.service!=='Solar Security Cameras'){data.cameraQuantity='';data.hireDuration='';}
   if(data.cameraQuantity && !/^[1-9]\d{0,2}$/.test(data.cameraQuantity)) return json(400,{error:'Please enter a camera quantity between 1 and 999.'});
   if(!/^[0-9a-f]{8}-[0-9a-f]{4}-4[0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i.test(body.requestId??''))return json(400,{error:'Please refresh the page and try again.'});
@@ -49,7 +48,8 @@ export function createQuoteHandler(env = process.env, send = fetch) {
    const check=await verification.json();
    const hostname=check.hostname;
    if(!verification.ok || !check.success || check.action!=='quote' || !allowed.has('https://'+hostname))return json(400,{error:'The security check expired or failed. Please complete it again.'});
-   const message=Object.entries(data).map(([k,v])=>k+': '+v).join('\n\n');
+   const labels={name:'Name',company:'Company',phone:'Phone',email:'Email',service:'Service',site:'Site suburb/postcode',cameraQuantity:'Camera quantity',hireDuration:'Expected hire duration',details:'Project/message details'};
+   const message='Sukhmani Constructions — website quote request\n\n'+Object.entries(labels).map(([key,label])=>label+': '+(data[key]||'Not provided')).join('\n\n')+'\n\nAttachment: '+(attachments?attachments[0].filename+' ('+Buffer.from(attachments[0].content,'base64').length+' bytes)':'None')+'\n\nReference: '+body.requestId.slice(0,8);
    const hash=createHash('sha256').update(JSON.stringify({data,attachments})).digest('hex');
    const delivery=await send('https://api.resend.com/emails',{method:'POST',headers:{Authorization:'Bearer '+env.RESEND_API_KEY,'Content-Type':'application/json','Idempotency-Key':'quote/'+body.requestId+'/'+hash},body:JSON.stringify({from:env.QUOTE_FROM_EMAIL,to:[env.QUOTE_TO_EMAIL],reply_to:data.email,subject:'Website quote request — '+data.service,text:message,...(attachments?{attachments}:{})}),signal:AbortSignal.timeout(10000)});
    const receipt=await delivery.json();

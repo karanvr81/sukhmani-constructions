@@ -28,7 +28,7 @@
       ],
       [
         "Get a quote for your site",
-        "A useful quote request includes the site suburb, build stage, intended start date, expected hire duration, access points and the areas you want to monitor. Include a general site layout if available; camera login details and other private operational information are not needed."
+        "A useful quote request includes the site suburb, build stage, expected hire duration, access points and the areas you want to monitor. Include a general site layout if available; camera login details and other private operational information are not needed."
       ]
     ],
     "faqs": [
@@ -50,7 +50,7 @@
       ],
       [
         "How quickly can installation happen?",
-        "Installation depends on availability, site access and the proposed setup. Send your start date and suburb so we can confirm a schedule."
+        "Installation depends on availability, site access and the proposed setup. Send your suburb so we can confirm a schedule."
       ],
       [
         "What happens at the end of hire?",
@@ -71,7 +71,7 @@
     "sections": [
       [
         "1. Share your site requirements",
-        "Send the suburb, build stage, planned start date, expected hire period and a general layout. Identify entry points and material storage areas. Mention any access restrictions that affect installation."
+        "Send the suburb, build stage, expected hire period and a general layout. Identify entry points and material storage areas. Mention any access restrictions that affect installation."
       ],
       [
         "2. Agree the camera setup and quote",
@@ -101,7 +101,7 @@
       ],
       [
         "Should I book before construction starts?",
-        "Send your planned start date early so availability and installation access can be confirmed. A specific installation date is agreed for each site."
+        "Send your site requirements early so availability and installation access can be confirmed. A specific installation date is agreed for each site."
       ]
     ]
   },
@@ -208,7 +208,7 @@
       ],
       [
         "Hire a setup for your Sydney site",
-        "Send your suburb, planned start date, expected hire period and site layout. We confirm availability, installation arrangements and the quote. <a href=\"/how-camera-hire-works/\">Read the hire process</a> or <a href=\"/construction-camera-hire-cost/\">compare the full hire cost</a>."
+        "Send your suburb, expected hire period and site layout. We confirm availability, installation arrangements and the quote. <a href=\"/how-camera-hire-works/\">Read the hire process</a> or <a href=\"/construction-camera-hire-cost/\">compare the full hire cost</a>."
       ]
     ],
     "faqs": [
